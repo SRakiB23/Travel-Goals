@@ -13,12 +13,17 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 60px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
 }
 
 #page-logo a {
     padding: 10x;
     font-family: "Oleo Script", sans-serif;
-    color: rgb(101, 101, 38);
+    color: rgb(240, 238, 111);
     font-size: 50px;
     text-decoration: none;
     text-transform: uppercase;
@@ -34,3 +39,38 @@ header li{
     margin: 20px;
 }
 
+header a{
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px;
+    text-shadow: 1px 1px 2px rgb(17, 16, 16);
+    border-radius:6px ;
+}
+
+header a:hover{
+    color: rgb(77, 77, 77);
+    background-color: rgb(241, 239, 99);
+
+}
+
+footer{
+    background: linear-gradient(70deg, rgb(24,24,24), rgb(25,29,29));
+    padding: 36px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    width: 80px;
+    height: 80px;
+    margin: 0 50px;
+}
+
+footer img {
+    width: 100%;
+    height: 100%;
+}
